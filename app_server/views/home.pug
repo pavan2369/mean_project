@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    .row.banner
+        .col-12
+            h1= trigo 
+    .row
+        .col-12.col-lg-9
+            .row
+                each destination in destinations
+                    .col-12.col-md-6
+                        .card.card-primary
+                            .card-block
+                                h2.card-title= destination.name
+                                p.description= destination.description
+                                ul
+                                    each attraction in destination.attractions
+                                        li= attraction

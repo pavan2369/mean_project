@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    .row.banner
+        .col-12
+            h1= title 
+    .row
+        .col-12.col-lg-9
+            each activity in activities
+                if activity._id === req.params.id  
+                    .card.card-primary
+                        .card-block
+                            h2.card-title= activity.name
+                            p.description= activity.description
+                            p.duration= "Duration: " + activity.duration
