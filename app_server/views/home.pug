@@ -11,7 +11,7 @@ block content
                     .col-12.col-md-6
                         .card.card-primary
                             .card-block
-                                h2.card-title= destination.name
+                                a(href='/destination')= destination.name
                                 p.description= destination.description
                                 ul
                                     each attraction in destination.attractions

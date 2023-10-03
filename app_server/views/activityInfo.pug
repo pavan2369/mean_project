@@ -1,15 +1,21 @@
 extends layout
-
 block content
     .row.banner
         .col-12
-            h1= title 
+            h1 activites 
     .row
         .col-12.col-lg-9
-            each activity in activities
-                if activity._id === req.params.id  
+            .row
+                .col-12.col-md-6
                     .card.card-primary
                         .card-block
-                            h2.card-title= activity.name
-                            p.description= activity.description
-                            p.duration= "Duration: " + activity.duration
+                            h2.card-title Heritage Walk
+                            img.img-fluid.rounded(src='https://www.google.com/search?sca_esv=570043172&rlz=1C1ONGR_enIN1040IN1040&sxsrf=AM9HkKkccOK_m2hEKjy6nNCxVgsD7WmPXQ:1696254990612&q=heritage+walk+hyderabad&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiAu6ehwteBAxUEQPUHHcw_BGMQ0pQJegQICRAB&biw=767&bih=730&dpr=1.25#imgrc=V1mjDNlVWgl2CM.jpg')
+                    .card.card-primary
+                        .card-block
+                            h2.card-title  Cuisine Tour
+                             img.img-fluid.rounded(src='https://5.imimg.com/data5/SELLER/Default/2021/8/JP/JP/JB/20565351/20w-40-mg-15l-diesel-engine-oil.jpg')
+                    //.card.card-primary
+                        .card-block
+                            h2.card-title Mobil Super
+                             img.img-fluid.rounded(src='https://m.media-amazon.com/images/I/71mKj8j0yYL.jpg')
