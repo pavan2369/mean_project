@@ -23,7 +23,7 @@ const homelist = (req, res) => {
                 name: 'karimnagar',
                 description: 'karimnagar sher o ka ghar',
                 attractions: ['LMD', 'karimnagar fort', 'cable brige'],  
-                              href:'/destinationinfo3'
+                href:'/destinationinfo3'
 
             },
             {
@@ -37,7 +37,7 @@ const homelist = (req, res) => {
                 name: 'Adilabad',
                 description:  'The district derives its name from Adilabad, its headquarters town which was named after the ruler of Bijapur, Ali Adil Shah',
                 attractions: ['Kuntala Waterfall', 'Gayatri Waterfall', 'Pochera Falls'],
-                                href:'/destinationinfo5'
+                href:'/destinationinfo5'
 
             }
         ]
