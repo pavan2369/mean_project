@@ -1,17 +1,19 @@
 extends layout
 
 block content
-  .row.banner
-    .col-12
-      h1= pageHeader.title
-      small &nbsp;#{pageHeader.strapline}
+    .row.banner
+        .col-12
+            h1= trigo 
+    .row
+        .col-12.col-lg-9
+            .row
+                each destination in destinations
+                    .col-12.col-md-6
+                        .card.card-primary
+                            .card-block
+                                a(href=destination.href)= destination.name
+                                p.description= destination.description
+                                ul
+                                    each attraction in destination.attractions
+                                        li= attraction
 
-  .row
-    .col-12.col-md-8
-      each destination in destinations
-        .card
-          .card-block
-            h4
-              a(href=`/destination/${destination.name}`)= destination.name
-            .description
-              | #{destination.description}
