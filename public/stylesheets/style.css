@@ -14,8 +14,8 @@ legend {
 }
 
 .navbar {
-  background-color: #1d73ad;
-  border-color: #16bf8f;
+  background-color: #060606;
+  border-color: #ddc9cf;
 }
 
 .navbar-light .navbar-brand {
@@ -39,19 +39,19 @@ legend {
 }
 
 .card {
-  background-color: #1ca053;
+  background-color: #64727c;
   padding: 1rem;
 }
 
 .card-primary {
-  border-color: #44a6b1;
+  border-color: #e7eded;
   margin-bottom: 0.5rem;
   color: #fff;
 }
 
 .banner {
   margin-top: 4em;
-  border-bottom: 1px solid #469ea8;
+  border-bottom: 1px solid #c7d3d4;
   margin-bottom: 1.5em;
   padding-bottom: 0.5em;
 }
@@ -122,7 +122,14 @@ span.badge.badge-warning {
 }
 
 body {
+  background-image: url('https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=600');
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
-  background-color: #108a93;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+.background-image {
+  background-image: url('https://www.pngwing.com/en/search?q=government+Of+Telangana');
+  background-size: cover; /* You can adjust this property as needed */
+  /* Additional background properties like position, repeat, etc. can also be set here */
 }

@@ -9,34 +9,30 @@ const homelist = (req, res) => {
             {
                 name: 'Hyderabad',
                 description: 'The capital city of Telangana known for its rich history and modernity.',
-                attractions: ['Charminar', 'Golconda Fort', 'Hussain Sagar Lake'],
                 href:'/destinationinfo1'
             },
             {
                 name: 'Warangal',
                 description: 'A city with a glorious past and historical monuments.',
-                attractions: ['Warangal Fort', 'Thousand Pillar Temple', 'Kakatiya Kala Thoranam'],
                 href:'/destinationinfo2'
             },
             
             {
                 name: 'karimnagar',
-                description: 'karimnagar sher o ka ghar',
-                attractions: ['LMD', 'karimnagar fort', 'cable brige'],  
+                description: 'Karimnagar is also known as Elagandula is a city and District Headquarters in the Indian state of Telangana. Karimnagar is a major urban agglomeration and third largest city in the state',
                 href:'/destinationinfo3'
 
             },
             {
                 name: 'Khammam district ',
                 description: 'Khammam district is a vivid kaleidoscope of historical temples, heritage monuments, soothing lakes, rich cultures and festivities and has natural endowments in Flora and Fauna.',
-                attractions: ['Palair Lake','Khammam Fort', 'Jamalapuram Temple'],
+            
                 href:'/destinationinfo4'
 
             },
             {
                 name: 'Adilabad',
                 description:  'The district derives its name from Adilabad, its headquarters town which was named after the ruler of Bijapur, Ali Adil Shah',
-                attractions: ['Kuntala Waterfall', 'Gayatri Waterfall', 'Pochera Falls'],
                 href:'/destinationinfo5'
 
             }
