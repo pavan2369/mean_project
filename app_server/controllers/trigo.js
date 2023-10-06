@@ -88,5 +88,6 @@ module.exports = {
     destinationinfo4,
     destinationinfo5,
 
+
    activityInfo
 };

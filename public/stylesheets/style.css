@@ -122,10 +122,10 @@ span.badge.badge-warning {
 }
 
 body {
-  background-image: url('https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url('https://cdn.pixabay.com/photo/2021/07/24/15/47/venice-6489813_640.jpg');
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
-  background-size: 120%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .background-image {
