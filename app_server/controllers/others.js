@@ -5,7 +5,9 @@ const review = (req, res) => {
     res.render('review', { title: 'Review' });
 };
 
+
 module.exports = {
     about,
-    review
+    review,
+    
 };
